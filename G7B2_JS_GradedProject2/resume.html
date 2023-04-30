@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume Page</title>
+
+    <link rel="stylesheet" href="resume.css">
+
+
+  </head>
+
+  <body>
+
+    <form id="search-form">
+        <label for="search-input">Search by job:</label>
+        <input type="text" id="search-input" name="search-input" placeholder="Enter job name">
+        <button type="submit" id="search-btn">Search</button>
+    </form>
+      <div id="results"></div>
+      
+      <div>
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>    
+   
+   <!-- Applicant details will be inserted here dynamically using JavaScript -->
+
+   <div id="result-frame">
+
+    <div id="data-found">
+      <!-- insert your code for data found here -->
+   
+      <div class="resume">
+          
+        <div class="personal">
+         <h1><span id="name"></span></h1>
+        <div id ="appliedfor-container">
+          <label for="appliedFor">Applied For:</label>
+          <span id="appliedFor"></span>
+        </div>
+        </div>
+      
+        
+        
+<table border="1">
+      
+<tr>
+  
+  <td id="firstcolumn">
+
+        <div class="basics">
+            <h2>Personal Information</h2>
+            <ul>
+                <li>Email: <span id="email"></span></li>
+                <li>Phone: <span id="phone"></span></li>
+                <li>Profile: <span id="network"></span></li>
+            </ul>
+        </div>
+        
+        <div class="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Name: <span id="name1"></span></li>
+                <li>Level: <span id="level"></span></li>
+                <li>Keywords:
+                    <ul id="keywords"></ul>
+                </li>
+            </ul>
+        </div>
+        
+
+       
+        <div class="interests">
+          <label for="hobbies">Hobbies:</label>
+          <span id="hobbies"></span>
+        </div>
+
+      </td>
+
+      <td id="2nd-column">
+        <div class="work">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Company: <span id="CompanyName"></span></li>
+                <li>Position: <span id="Position"></span></li>
+                <li>Start Date: <span id="StartDate"></span></li>
+                <li>End Date: <span id="EndDate"></span></li>
+                <li>Summary: <span id="Summary"></span></li>
+            </ul>
+        </div>
+        
+        <div class="internship">
+            <h2>Internship</h2>
+            <ul>
+                <li>Company: <span id="internship-company-name"></span></li>
+                <li>Position: <span id="internship-position"></span></li>
+                <li>Start Date: <span id="internship-start-date"></span></li>
+                <li>End Date: <span id="internship-end-date"></span></li>
+                <li>Summary: <span id="internship-summary"></span></li>
+            </ul>
+        </div>
+      
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Name: <span id="project-name"></span></li>
+                <li>Description: <span id="project-description"></span></li>
+            </ul>
+        </div>
+      
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Undergraduate:
+                    <ul>
+                        <li>Institute: <span id="ug-institute"></span></li>
+                        <li>Course: <span id="ug-course"></span></li>
+                        <li>Start Date: <span id="ug-start-date"></span></li>
+                        <li>End Date: <span id="ug-end-date"></span></li>
+                        <li>CGPA: <span id="ug-cgpa"></span></li>
+                    </ul>
+                </li>
+                <li>Senior Secondary:
+                    <ul>
+                        <li>Institute: <span id="ss-institute"></span></li>
+                        <li>CGPA: <span id="ss-cgpa"></li>
+                    </ul>
+                </li>
+
+                <li>High School:
+                  <ul>
+                      <li>Institute: <span id="school-institute"></span></li>
+                      <li>CGPA: <span id="school-cgpa"></li>
+                  </ul>
+              </li>
+
+             </ul>
+
+          <div class="achievements">
+              <h2>Achievements</h2>
+              <ul>
+                  <li>Summary: <span id="summary"></span></li>
+              </ul>
+          </div>
+
+          </td>
+      </tr>
+      </table>  
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+     </div>
+
+        <div id="no-data-found">
+            <img src="no-data-found.png">
+      
+        </div>
+     </div>
+  
+
+
+   
+
+<script src="resume.js"></script>
+</body>
+</html>

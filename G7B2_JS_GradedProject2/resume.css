@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  h1 {
+  text-align: center;
+  }
+
+
+  #firstcolumn {
+    display: block;
+  
+  }  
+  
+#appliedfor-container {
+  text-align: center;
+  
+  }
+
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  
+  #search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  }
+  
+  #search-input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 70%;
+  max-width: 500px;
+  }
+  
+  #search-btn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  } 
+  
+  
+  .personal {
+    background-color: aqua;
+  }
+  
+  #firstcolumn {
+    background-color:rgb(200, 94, 149,0.5)
+  }
+  .resume {
+  margin:  50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color:aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume h2 {
+  margin-bottom: 10px;
+  }
+  
+  .resume ul li {
+  margin-bottom: 5px;
+  }
+  
+  .resume .basics ul {
+  display: block;
+  flex-wrap: wrap;
+  }
+  
+  .resume .basics ul li {
+  flex-basis: 50%;
+  }
+  
+  .resume .skills ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .resume .skills ul li span {
+  margin-right: 5px;
+  
+  }
+  
+  .resume .skills ul li ul {
+  margin-top: 5px;
+  margin-left: 15px;
+  }
+  
+  .resume .work ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .resume .work ul li span {
+  margin-right: 5px;
+  
+  }
+  
+  .resume .internship ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .resume .internship ul li span {
+  margin-right: 5px;
+  
+  }
+  
+  .resume .projects ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .resume .projects ul li span {
+  margin-right: 5px;
+  }
+  
+  .resume .education ul li ul {
+  margin-top: 5px;
+  margin-left: 15px;
+  }
+  
+  .resume .education ul li ul li {
+  margin-bottom: 5px;
+  }
+  
+  .resume .achievements ul li {
+  margin-bottom: 5px;
+  }
+  
+  .resume label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  }
+  
+  
+  #prevBtn,
+  #nextBtn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  
+  #prevBtn {
+  float: left;
+  margin-left: 300px;
+  }
+  
+  #nextBtn {
+  float: right;
+  margin-right: 300px;
+  }
+  
+  #results {
+  text-align: center;
+  }
+  
+  
+  #result-frame {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #data-found {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #no-data-found {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #no-data-found img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+    border: 2px solid black ;
+  }
+   
+  
